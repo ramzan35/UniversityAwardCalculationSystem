@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="852.0" prefWidth="1200.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication2.MainController">
+   <children>
+      <TextField fx:id="m1ict1" layoutX="299.0" layoutY="207.0" minHeight="32.0" prefWidth="110.0" />
+      <TextField fx:id="m3ict2" layoutX="545.0" layoutY="367.0" minHeight="32.0" prefWidth="110.0" />
+      <TextField fx:id="m2ict2" layoutX="545.0" layoutY="284.0" minHeight="32.0" prefWidth="110.0" />
+      <TextField fx:id="m4ict1" layoutX="299.0" layoutY="457.0" minHeight="32.0" prefWidth="110.0" />
+      <TextField fx:id="m1ict2" layoutX="545.0" layoutY="207.0" minHeight="32.0" prefWidth="110.0" />
+      <TextField fx:id="m5ict1" layoutX="299.0" layoutY="536.0" minHeight="32.0" prefWidth="110.0" />
+      <TextField fx:id="m3ict1" layoutX="299.0" layoutY="367.0" minHeight="32.0" prefWidth="110.0" />
+      <TextField fx:id="m2ict1" layoutX="299.0" layoutY="284.0" minHeight="32.0" prefWidth="110.0" />
+      <TextField fx:id="m4ict2" layoutX="545.0" layoutY="456.0" minHeight="32.0" prefWidth="110.0" />
+      <TextField fx:id="m5ict2" layoutX="545.0" layoutY="536.0" minHeight="32.0" prefWidth="110.0" />
+      <TextField fx:id="m6ict1" layoutX="299.0" layoutY="623.0" minHeight="32.0" prefWidth="110.0" />
+      <TextField fx:id="m6ict2" layoutX="545.0" layoutY="623.0" minHeight="32.0" prefWidth="110.0" />
+      <Label layoutX="330.0" layoutY="133.0" prefHeight="27.0" prefWidth="48.0" text="ICT 1">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="583.0" layoutY="133.0" text="ICT 2">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="765.0" layoutY="133.0" text="Module Marks">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="42.0" layoutY="205.0" text="Module 01" AnchorPane.leftAnchor="42.0">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="42.0" layoutY="282.0" text="Module 02" AnchorPane.leftAnchor="42.0">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="42.0" layoutY="365.0" text="Module 03" AnchorPane.leftAnchor="42.0">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="42.0" layoutY="455.0" text="Module 04" AnchorPane.leftAnchor="42.0">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="42.0" layoutY="534.0" text="Module 05" AnchorPane.leftAnchor="42.0">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label layoutX="42.0" layoutY="621.0" text="Module 06" AnchorPane.leftAnchor="42.0">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label alignment="TOP_RIGHT" layoutX="563.0" layoutY="76.0" prefHeight="40.0" prefWidth="96.0" text="Level 04">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_RIGHT" layoutX="454.0" layoutY="23.0" text="University of Gugsi">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnenter" layoutX="777.0" layoutY="793.0" mnemonicParsing="false" onAction="#calcuatelvl4" prefHeight="31.0" prefWidth="110.0" text="Enter" AnchorPane.leftAnchor="777.0" />
+      <Label fx:id="lblmm1" layoutX="772.0" layoutY="208.0" prefHeight="30.0" prefWidth="120.0" AnchorPane.leftAnchor="772.0" />
+      <Label fx:id="lblmm2" layoutX="781.0" layoutY="285.0" prefHeight="31.0" prefWidth="135.0" AnchorPane.leftAnchor="772.0" />
+      <Label fx:id="lblmm3" layoutX="781.0" layoutY="368.0" prefHeight="30.0" prefWidth="120.0" AnchorPane.leftAnchor="772.0" />
+      <Label fx:id="lblmm5" layoutX="756.0" layoutY="536.0" prefHeight="31.0" prefWidth="120.0" AnchorPane.leftAnchor="772.0" />
+      <Label fx:id="lblmm6" layoutX="772.0" layoutY="623.0" prefHeight="31.0" prefWidth="104.0" AnchorPane.leftAnchor="772.0" />
+      <Button fx:id="btnnext" layoutX="924.0" layoutY="793.0" mnemonicParsing="false" onAction="#Next" prefHeight="31.0" prefWidth="110.0" text="Next" />
+      <Label fx:id="lblmm4" layoutX="764.0" layoutY="457.0" prefHeight="32.0" prefWidth="120.0" AnchorPane.leftAnchor="772.0" />
+      <Label layoutX="1034.0" layoutY="133.0" text="Credit">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblm1c" layoutX="1034.0" layoutY="208.0" prefHeight="30.0" prefWidth="120.0" />
+      <Label fx:id="lblm2c" layoutX="1034.0" layoutY="286.0" prefHeight="30.0" prefWidth="120.0" />
+      <Label fx:id="lblm3c" layoutX="1034.0" layoutY="369.0" prefHeight="30.0" prefWidth="120.0" />
+      <Label fx:id="lblm4c" layoutX="1034.0" layoutY="458.0" prefHeight="30.0" prefWidth="120.0" />
+      <Label fx:id="lblm5c" layoutX="1034.0" layoutY="537.0" prefHeight="30.0" prefWidth="120.0" />
+      <Label fx:id="lblm6c" layoutX="1034.0" layoutY="624.0" prefHeight="30.0" prefWidth="120.0" />
+      <Label fx:id="lblstatus" layoutX="379.0" layoutY="740.0" prefHeight="35.0" prefWidth="449.0">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="lblstatus11" layoutX="366.0" layoutY="712.0" prefHeight="35.0" prefWidth="449.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblx3" layoutX="181.0" layoutY="367.0" prefHeight="31.0" prefWidth="90.0" />
+      <Label fx:id="lblx6" layoutX="181.0" layoutY="624.0" prefHeight="31.0" prefWidth="90.0" />
+      <Label fx:id="lblx4" layoutX="181.0" layoutY="457.0" prefHeight="31.0" prefWidth="90.0" />
+      <Label fx:id="lblx5" layoutX="181.0" layoutY="536.0" prefHeight="31.0" prefWidth="90.0" />
+      <Label fx:id="lblx2" layoutX="181.0" layoutY="286.0" prefHeight="31.0" prefWidth="90.0" />
+      <Label fx:id="lblx1" layoutX="181.0" layoutY="208.0" prefHeight="31.0" prefWidth="90.0" />
+      <Button fx:id="btnexit" layoutX="1058.0" layoutY="793.0" mnemonicParsing="false" onAction="#exit" prefHeight="31.0" prefWidth="110.0" text="Exit" />
+   </children>
+</AnchorPane>
